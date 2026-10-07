@@ -16,3 +16,8 @@
 
 // console.log(y);
 // let y=20; //let ile tanımlanan değişkenler hoisting ile yukarı taşınmaz ve tanımlanmadan önce erişilemez. Bu yüzden hata verir.
+
+selamVer();
+function selamVer() {
+    console.log("Merhaba!");
+}
