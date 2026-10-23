@@ -19,7 +19,7 @@ if (tutar > 50) {
 
 
 
-let sıcaklık = 50
+let sıcaklık = 102
 
 if (sıcaklık >= 100) {
         console.log("su gaz haldedir");
@@ -79,19 +79,19 @@ if(ortalama >85) {
 if(ortalama >70 && ortalama < 85) {
     console.log("4");
 }
-if(ortalama >70 && ortalama < 85) {
-    console.log("3");
-}
-
 if(ortalama >55 && ortalama < 70) {
     console.log("3");
 }
 
 if(ortalama >45 && ortalama < 55) {
-    console.log("2");
+    console.log("3");
 }
 
 if(ortalama >25 && ortalama < 45) {
+    console.log("2");
+}
+
+if(ortalama = 25) {
     console.log("1");
 }
 if(ortalama < 25) {
