@@ -130,44 +130,62 @@
 // }
 
 
-let ortalama1=75;
-if(ortalama >=90){
-    console.log("AA aldınız");
-}  else if (ortalama >=80) {
-    console.log("BA aldınız")
+// var ortalama=75;
+// if(ortalama >=90){
+//     console.log("AA aldınız");
+// }  else if (ortalama >=80) {
+//     console.log("BA aldınız")
+// }
+//  else {
+//     console.log("diğerleri");
+//  }
+
+
+//  let ortalama2=90;
+// if(ortalama >=90){
+//     console.log("AA aldınız");}
+// else if (ortalama>=80){
+//     console.log("BA aldınız")
+// }
+// else {
+//     console.log("diğerleri")
+// }
+
+
+// let ortalama3=70 
+// if (ortalama >=70){
+//     console.log("AA aldınız");
+// } else if (ortalam >=70)
+// { 
+//     console.log("CC aldınız");
+// }
+// else{ console.log("diğerleri")}
+
+
+
+// let ortalama4=60 
+// if (ortalama >=90){
+//     console.log("AA aldınız")
+// }
+// else if (ortalama >=60){
+//     console.log("DC aldınız")
+// }
+//else {console.log(diğerleri)}
+
+
+
+
+let tutar = Number(prompt("Alışveriş tutarını giriniz:"));
+let kargo;
+let toplam;
+
+if (tutar > 50) {
+    kargo = 0;
+    toplam = tutar;
+} else {
+    kargo = 7;
+    toplam = tutar + kargo;
 }
- else {
-    console.log("diğerleri");
- }
 
-
- let ortalama2=90;
-if(ortalama >=90){
-    console.log("AA aldınız");}
-else if (ortalama>=80){
-    console.log("BA aldınız")
-}
-else {
-    console.log("diğerleri")
-}
-
-
-let ortalama3=70 
-if (ortalama >=70){
-    console.log("AA aldınız");
-} else if (ortalam >=70)
-{ 
-    console.log("CC aldınız");
-}
-else{ console.log("diğerleri")}
-
-
-
-let ortalama4=60 
-if (ortalama >=90){
-    console.log("AA aldınız")
-}
-else if (ortalama >=60){
-    console.log("DC aldınız")
-}
-else {console.log(diğerleri)}
+alert("Kargo ücreti: " + kargo + " TL");
+alert("Toplam tutar: " + toplam + " TL");
